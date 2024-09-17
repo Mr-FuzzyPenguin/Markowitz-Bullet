@@ -1072,7 +1072,7 @@ class test(Scene):
             FadeTransform(text[0][4], text_target[0][4]),
             FadeTransform(text[0][14], text_target[0][16]),
             Transform(text[0][15:18], text_target[0][17], path_arc=np.pi),
-            FadeIn(text_target[5:7]),
+            FadeIn(text_target[0][5:7]),
             run_time=(2 / 3),
         )
 
