@@ -1069,6 +1069,7 @@ class test(Scene):
 
         self.play(
             *[Transform(text[0][i], text_target[0][i]) for i in range(4)],
+            *[Transform(text[0][i], text_target[0][i + 2]) for i in range(5, 14)],
             FadeTransform(text[0][4], text_target[0][4]),
             FadeTransform(text[0][14], text_target[0][16]),
             Transform(text[0][15:18], text_target[0][17], path_arc=np.pi),
