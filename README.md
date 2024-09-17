@@ -1,1 +1,1 @@
-./markowitz-bullet.mp4
+[Here is the animation:](./markowitz-bullet.mp4)
